@@ -1,7 +1,7 @@
 {
-    "name": "boilerplate-skillcrucial",
+    "name": "anton_project",
     "version": "0.0.2",
-    "description": "Boilerplate SkillCrucial",
+    "description": "Homework for 24i Media",
     "main": "index.js",
     "scripts": {
         "docker-start-dev": "docker-compose -f \"docker\\DEV.docker-compose.yml\" up",
