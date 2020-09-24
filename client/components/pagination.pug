@@ -1,0 +1,10 @@
+
+ul.pagination.flex.justify-between.mx-4.mt-4.text-black.list-none
+
+  each val in pages
+      if val == page
+        li.disabled
+          button.button.bg-transparent.border-2.border-brown.py-2.px-4.rounded.opacity-50.cursor-not-allowed.text-bold= val
+      else
+        li
+          button.page-number.button.bg-transparent.border-2.border-brown.py-2.px-4.rounded.opacity-85= val
