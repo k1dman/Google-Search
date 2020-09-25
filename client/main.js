@@ -4,7 +4,7 @@ import imageResults from './components/image-results'
 import webResults from './components/web-results'
 import pagination from './components/pagination'
 
-const RESULTS_PER_PAGE = 10
+const RESULTS_PER_PAGE = 12
 
 const getSearchUrl = (searchString, page = 1, searchType = 'SEARCH_TYPE_UNDEFINED') =>
   `https://www.googleapis.com/customsearch/v1?key=${API_KEY}&cx=${CX}&q=${encodeURI(
