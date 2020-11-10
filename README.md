@@ -1,10 +1,9 @@
-# Homework for 24iMedia
 
 ## Quick start
 
 1. Clone this repo using:
   ```shell
-  $ git clone git@github.com:k1dman/homework24i.git
+  $ git clone git@github.com:k1dman/Google-Search.git
   ```
 
 2. To install dependencies and clean the git repo run:
@@ -13,7 +12,7 @@
   $ yarn install
   ```
 
-  *We recommend using `yarn` for installing packages, but you can use `npm` instead*:
+  *I recommend using `yarn` for installing packages, but you can use `npm` instead*:
 
   ```shell
   $ npm install
